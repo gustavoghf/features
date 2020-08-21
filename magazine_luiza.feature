@@ -1,7 +1,7 @@
 #language: pt
-Funcionalidade: Pesquisa no site magazine luiza
+Funcionalidade: Compra
 
-Cenario: 
-    Dado que ao abrir o site do Magazine Luiza
+Cenario: Pesquisa no site magazine luiza
+    Dado que esteja na home
     Quando pesquisar por computador
-    Então deve adicionar o primeiro produto ao carrinho
+    Então deverá adicionar o primeiro produto ao carrinho

@@ -1,11 +1,8 @@
 #language: pt
-Funcionalidade: Compra no site
+Funcionalidade: Compra
 
-Contexto: 
-    Dado que eu esteja logado no site
-
-Cenario: 
-    Dado que ao abrir o site do submarino
+Cenario: Adicionar produto ao carrinho e realizar a compra
+    Dado que esteja na home
     Quando pesquisar o produto desejado
     E adicionar ao carrinho
-    Então Deve ser finalizada a compra
+    Então Deverá ser finalizada a compra
